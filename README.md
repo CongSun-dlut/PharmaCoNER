@@ -1,8 +1,9 @@
 # Deep learning with language models improves named entity recognition for PharmaCoNER
 
 ## Codes and models.
-In this repository, we provide the codes of the BERT models.
+This repository is organized as follows.
 
+```
 PharmaCoNER
   -data
     -train.txt
@@ -16,4 +17,4 @@ PharmaCoNER
   -metric.py
   -utils_ner.py
   -PharmaCoNER_run.py
-
+```

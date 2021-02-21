@@ -225,8 +225,7 @@ def train(args, train_dataset, model, tokenizer, labels, pad_token_label_id):
                 global_step += 1
 
                 args.logging_steps = int(t_total/args.num_train_epochs)
-                if args.local_rank in [-1, 0] and global_step % args.logging_steps == 0:
-                    # and global_step > 15*args.logging_steps 
+                if args.local_rank in [-1, 0] and global_step > 15*args.logging_steps and global_step % args.logging_steps == 0:
                     # Log metrics
                     if (
                         args.local_rank == -1 and args.evaluate_during_training

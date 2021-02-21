@@ -20,10 +20,9 @@ PharmaCoNER
   -PharmaCoNER_run.py
 ```
 
-* outputs: store the output files.
 * src: provide the BERT models. The file can be downloaded from this [URL](https://drive.google.com/drive/folders/1dwz7vexVsuj6swYr0Mdk7cNazp0IuG7Y?usp=sharing).
-* data: provide the processed PharmaCoNER dataset (from the original [PharmaCoNER corpus](https://drive.google.com/drive/folders/1imuqrdy3BNazz0Lq7kTpjnLD3QB1QLfa?usp=sharing).
-
+* data: provide the processed PharmaCoNER dataset (from the original [PharmaCoNER corpus](https://drive.google.com/drive/folders/1imuqrdy3BNazz0Lq7kTpjnLD3QB1QLfa?usp=sharing)).
+* outputs: store the output files.
 
 ## Tested environments ##
 

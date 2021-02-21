@@ -21,7 +21,7 @@ PharmaCoNER
 ```
 
 * src: used to provide the BERT models.    The models can be downloaded from [here](https://drive.google.com/drive/folders/1dwz7vexVsuj6swYr0Mdk7cNazp0IuG7Y?usp=sharing).
-* data: used to provide the processed PharmaCoNER dataset.    The original PharmaCoNER corpus can be found in [here](https://drive.google.com/drive/folders/1imuqrdy3BNazz0Lq7kTpjnLD3QB1QLfa?usp=sharing).
+* data: used to provide the processed PharmaCoNER dataset.    The original PharmaCoNER corpus can be downloaded from [here](https://drive.google.com/drive/folders/1imuqrdy3BNazz0Lq7kTpjnLD3QB1QLfa?usp=sharing).
 * outputs: used to store the output files.
 
 ## Tested environments ##

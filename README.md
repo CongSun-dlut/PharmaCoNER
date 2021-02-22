@@ -36,6 +36,7 @@ PharmaCoNER
 
 ## Run the model ##
 
+```
 CUDA_VISIBLE_DEVICES=0 python PharmaCoNER_run.py\
 --do_train   \
 --do_eval    \
@@ -53,3 +54,4 @@ CUDA_VISIBLE_DEVICES=0 python PharmaCoNER_run.py\
 --num_train_epochs 20   \
 --seed 9  \
 --output_dir /$YourPath/PharmaCoNER/outputs/$Output_file
+```

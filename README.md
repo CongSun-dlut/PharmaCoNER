@@ -47,9 +47,9 @@ CUDA_VISIBLE_DEVICES=0 python PharmaCoNER_run.py\
 --max_seq_length 300   \
 --per_gpu_train_batch_size 16   \
 --per_gpu_eval_batch_size 16   \
---save_steps 100000    
---labels /$YourPath/PharmaCoNER/labels.txt    
---learning_rate 2e-5   
---num_train_epochs 20   
---seed 9  
+--save_steps 100000    \
+--labels /$YourPath/PharmaCoNER/labels.txt    \
+--learning_rate 2e-5   \
+--num_train_epochs 20   \
+--seed 9  \
 --output_dir /$YourPath/PharmaCoNER/outputs/$Output_file

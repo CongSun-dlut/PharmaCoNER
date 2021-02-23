@@ -34,6 +34,7 @@ PharmaCoNER
 * numpy                     1.18.3
 * tqdm                      4.45.0 
 * scipy                     1.4.1
+* tensorboardX              2.0
 
 ## Run the model ##
 

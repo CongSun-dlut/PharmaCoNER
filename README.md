@@ -32,6 +32,7 @@ PharmaCoNER
 * transformers              2.8.0
 * torch                     1.5.0
 * numpy                     1.18.3
+* tqdm                      4.45.0 
 * scipy                     1.4.1
 
 ## Run the model ##
